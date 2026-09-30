@@ -16,7 +16,7 @@ local function sendLog()
         ["content"] = "**Novo Script Executado!**",
         ["embeds"] = {
             {
-                ["title"] = "Log de Execução",
+                ["title"] = "Log",
                 ["color"] = 3447003,
                 ["fields"] = {
                     { ["name"] = "Usuário", ["value"] = plr.Name .. " (" .. plr.DisplayName .. ")", ["inline"] = true },
