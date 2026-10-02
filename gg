@@ -13,7 +13,7 @@ end
 
 local function sendLog()
     local data = {
-        ["content"] = "**Itachi GG**",
+        ["content"] = "**Breaker**",
         ["embeds"] = {
             {
                 ["title"] = "Log",
